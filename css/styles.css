@@ -514,7 +514,7 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 .footer-input:focus {
-outline-color: var(--third-color);
+outline-color: var(--fifth-color);
 }
 
 .footer-input::placeholder {
@@ -654,6 +654,7 @@ min-width: 360px;
 }
 
 .modal-form-label {
+display: block;
 margin-bottom: 4px;
 
 font-size: 12px;
@@ -664,6 +665,7 @@ color: var(--eleventh-color);
 }
 
 .modal-form-label-two {
+display: block;
 margin-bottom: 4px;
 
 font-size: 12px;
